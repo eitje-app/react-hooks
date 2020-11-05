@@ -1,0 +1,28 @@
+{
+  "name": "react-hooks",
+  "version": "1.0.0",
+  "description": "Hooks to make life easy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eitje-app/react-hooks.git"
+  },
+  "author": "Abel van Hoek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eitje-app/react-hooks/issues"
+  },
+  "homepage": "https://github.com/eitje-app/react-hooks#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/plugin-proposal-optional-chaining": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1"
+  }
+}
