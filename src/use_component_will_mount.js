@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 
 
-export default useComponentWillMount = (func) => {
+const useComponentWillMount = (func) => {
     useMemo(func, [])
 }
+
+export default useComponentWillMount
