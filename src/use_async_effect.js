@@ -1,5 +1,3 @@
-import React, {useEffect, useRef, useState} from 'react'
-
 export function useAsyncEffect(effect, destroy, inputs) {
   var hasDestroy = typeof destroy === 'function';
   useEffect(function () {
@@ -21,20 +19,4 @@ export function useAsyncEffect(effect, destroy, inputs) {
       }
     };
   }, hasDestroy ? inputs : destroy);
-}
-
-export function usePrevious(value) {
-  const ref = useRef();
-  useEffect(() => {
-    ref.current = value;
-  }, [value]);
-  return ref.current;
-}
-
-export const useMergeState = (def = {}) => {
-  const [state, setState] = useState(def)
-  const setMergeState = newState => {
-    setState(currState => ({...currState, ...newState}) )
-  }
-  return [state, setMergeState, setState]
 }
