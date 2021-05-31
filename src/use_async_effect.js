@@ -1,3 +1,5 @@
+import {useEffect} from 'react'
+
 function useAsyncEffect(effect, destroy, inputs) {
   var hasDestroy = typeof destroy === 'function';
   useEffect(function () {
