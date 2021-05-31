@@ -1,6 +1,6 @@
 {
   "name": "@eitje/react-hooks",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Hooks to make life easy",
   "main": "index.js",
   "scripts": {
