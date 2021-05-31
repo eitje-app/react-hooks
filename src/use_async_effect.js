@@ -1,4 +1,4 @@
-export function useAsyncEffect(effect, destroy, inputs) {
+function useAsyncEffect(effect, destroy, inputs) {
   var hasDestroy = typeof destroy === 'function';
   useEffect(function () {
     var result;
@@ -20,3 +20,5 @@ export function useAsyncEffect(effect, destroy, inputs) {
     };
   }, hasDestroy ? inputs : destroy);
 }
+
+export default useAsyncEffect
