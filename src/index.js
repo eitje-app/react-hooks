@@ -6,5 +6,16 @@ import useMergeState from './use_merge_state'
 import usePrevious from './use_previous'
 import useScrollToTop from './use_scroll_to_top'
 import useToggleState from './use_toggle_state'
+import useBoolState from './use_bool_state'
 
-export {useAsyncEffect, useConcatState, useComponentWillMount, useInterval, useMergeState, usePrevious, useScrollToTop, useToggleState}
+export {
+  useAsyncEffect,
+  useConcatState,
+  useComponentWillMount,
+  useInterval,
+  useMergeState,
+  usePrevious,
+  useScrollToTop,
+  useToggleState,
+  useBoolState,
+}
