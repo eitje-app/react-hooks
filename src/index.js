@@ -7,6 +7,7 @@ import usePrevious from './use_previous'
 import useScrollToTop from './use_scroll_to_top'
 import useToggleState from './use_toggle_state'
 import useBoolState from './use_bool_state'
+import useIncrementState from './use_increment_state'
 
 export {
   useAsyncEffect,
@@ -18,4 +19,5 @@ export {
   useScrollToTop,
   useToggleState,
   useBoolState,
+  useIncrementState,
 }
