@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react'
 import moment from 'moment'
-import {useInterval} from 'index'
+import {useInterval} from './index'
 
 const useCountup = ({defaultValue = 0, defaultTime} = {}) => {
   let def = defaultValue
