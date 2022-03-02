@@ -8,6 +8,7 @@ import useScrollToTop from './use_scroll_to_top'
 import useToggleState from './use_toggle_state'
 import useBoolState from './use_bool_state'
 import useIncrementState from './use_increment_state'
+import useCountup from './use_countup'
 
 export {
   useAsyncEffect,
@@ -20,4 +21,5 @@ export {
   useToggleState,
   useBoolState,
   useIncrementState,
+  useCountup,
 }
