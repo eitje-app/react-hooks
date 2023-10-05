@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 
 const useConcatState = (def = []) => {
   const [state, setState] = useState(def);
-  const setConcatState = (newEl) => setState([...state, newEl]);
+  const setConcatState = (newEl) =>
+    setState((prevState) => [...prevState, newEl]);
   const delItem = (item, identifier) =>
     setState(
       state.filter((i) => (identifier ? i[identifier] !== item : i !== item))
