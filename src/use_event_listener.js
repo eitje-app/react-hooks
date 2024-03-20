@@ -1,6 +1,10 @@
 import { useEffect, useRef } from "react";
 
-export function useEventListener(eventName, handler, element = window) {
+export function useEventListener(
+  eventName,
+  handler,
+  element = typeof window !== "undefined" && window
+) {
   const savedHandler = useRef();
 
   useEffect(() => {

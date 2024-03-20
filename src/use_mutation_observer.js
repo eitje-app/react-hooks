@@ -5,7 +5,7 @@ export const useMutationObserver = (props) => {
     mutationFunction,
     observeOptions,
     dependency,
-    element = document.body,
+    element = typeof window !== "undefined" && document.body,
   } = props;
 
   useEffect(() => {
