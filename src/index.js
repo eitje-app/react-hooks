@@ -13,6 +13,11 @@ import useCountdown from "./use_countdown";
 export * from "./use_hover";
 export * from "./use_event_listener";
 export * from "./use_mutation_observer";
+export {
+  useResizeObserver,
+  useHeightObserver,
+  useIntersectionObserver,
+} from "./use_observers";
 
 export {
   useAsyncEffect,
