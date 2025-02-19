@@ -1,6 +1,6 @@
 {
   "name": "@eitje/react-hooks",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Hooks to make life easy",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
